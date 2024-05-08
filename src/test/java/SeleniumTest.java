@@ -44,6 +44,8 @@ public class SeleniumTest {
 
         Assert.assertEquals(expectedFirstCategory,actualFirstCategory);
 
+        System.out.println("Test Pass");
+
         driver.close();
     }
 }
