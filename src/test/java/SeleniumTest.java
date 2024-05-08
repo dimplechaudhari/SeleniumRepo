@@ -36,7 +36,7 @@ public class SeleniumTest {
 
         WebElement formalshoes= driver.findElement(By.xpath("//div[@id='SmokeTests']//h3[@id='ShoeType']"));
 
-        Thread.sleep(2000);
+        Thread.sleep(2000); // For this need to throws InterruptedException on method name
 
         String actualFirstCategory = formalshoes.getText();
 
